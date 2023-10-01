@@ -1,0 +1,97 @@
+.contact-container {
+  margin: 10px 150px;
+}
+
+.contact-subtitle  {
+  font-size: 36px; 
+  font-weight: 600;
+  color: white;
+}
+
+.contact-left {
+  flex-basis: 35%;
+}
+
+.contact-right {
+  flex-basis: 60%;
+}
+
+.contact-left p {
+  margin-top: 30px;
+}
+
+.contact-left p i {
+  color: #007BFF;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.social-icons{
+  margin-top: 20px;
+}
+
+.social-icons a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 25px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social-icons a:hover{
+  color: #007BFF;
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.contact-btn {
+  display: block;
+  margin: 70px auto;
+  width: fit-content;
+  border: 2px solid #007BFF;
+  padding: 0.75rem 5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 0.5s;
+}
+
+.contact-btn:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+.con-btn {
+  display: inline-block;
+}
+
+.contact-right form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: #262626;
+  padding: 10px;
+  margin: 10px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.con-btn {
+  padding: 14px 60px;
+  font-size: 18px;
+  margin-top: 20px;
+  color: #007BFF;
+  cursor: pointer;
+}
+
+#sub-res{
+  color: #61b752;
+  margin-top: -40px;
+  display: block;
+}
