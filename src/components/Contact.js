@@ -68,10 +68,10 @@ const Contact = () => {
             <p><i className="fa-solid fa-envelope"></i>sauravkumar77705@gmail.com</p>
             <p><i className="fa-solid fa-location-dot"></i>Shri Ram ki Nangal via RIICO, Tonk Rd, Sitapura, Jaipur, Rajasthan 302022 </p>
             <div className="social-icons">
-              <a href=""><i class="fa-brands fa-linkedin"></i></a>
-              <a href=""><i class="fa-brands fa-github"></i></a>
-              <a href=""><i class="fa-brands fa-youtube"></i></a>
-              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/saurav1207/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/saurav1207"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.youtube.com/channel/UCIHl2VlEkrJGf4s2G2PrMGQ"><i class="fa-brands fa-youtube"></i></a>
+              <a href="https://twitter.com/i__saurav__"><i class="fa-brands fa-twitter"></i></a>
             </div>
             <a href={CV} download className="contact-btn con-btn">Download CV</a>
           </div>
