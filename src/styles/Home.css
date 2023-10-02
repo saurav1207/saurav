@@ -6,7 +6,6 @@
     position: relative;
 }
 
-
 .profile {
     position: absolute;
     top: 0rem;
@@ -47,7 +46,7 @@ text-align: left;
 
 .introPara {
     font-size: medium;
-    font-weight: 100;
+    font-weight: 300;
     text-align: left;
 }
 

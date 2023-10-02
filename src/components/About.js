@@ -1,12 +1,11 @@
 import React from 'react';
-import '../styles/About.css'; // Import your CSS file for styling
+import '../styles/About.css'; 
 import saurya from '../assets/saurya.jpg';
 
 const About = () => {
   function opentab(tabname, event) {
-    // Corrected the function signature to accept the event parameter
-    var tablinks = document.querySelectorAll('.tab-links'); // Use querySelectorAll to select elements
-    var tabcontents = document.querySelectorAll('.tab-contents'); // Use querySelectorAll to select elements
+    var tablinks = document.querySelectorAll('.tab-links'); 
+    var tabcontents = document.querySelectorAll('.tab-contents'); 
 
     for (var tablink of tablinks) {
       tablink.classList.remove('active-link');
@@ -62,12 +61,12 @@ const About = () => {
             <div className="tab-contents" id="experience">
               <ul>
                 <li>
-                  <span>Mar 2023 - Aug 2023</span>
+                  <span>May 2023 - Aug 2023</span>
                   <br />
                   ReactJs Developer At Celebal Technologies
                 </li>
                 <li>
-                  <span>Mar 2022 - Apr 2022</span>
+                  <span>Jul 2022 - Aug 2022</span>
                   <br />
                   Full Stack Developer At Wisflux Tech Lab
                 </li>
