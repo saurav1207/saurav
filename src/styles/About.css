@@ -4,7 +4,7 @@
 }
 
 .about-section{
-  margin: 10px 150px;
+  margin: 10px 165px;
 }
 
 .row {
@@ -20,6 +20,7 @@
 .about-col-1 img {
   width: 100%;
   border: 3px solid #fff;
+  
   /* border-radius: 15px; */
 }
 
@@ -36,7 +37,7 @@
 .about-para{
   font-size: medium;
   font-weight: 300;
-  text-align: left;
+  text-align: justify;
 }
 
 .tab-titles {

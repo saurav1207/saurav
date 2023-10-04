@@ -26,7 +26,7 @@ const About = () => {
           </div>
           <div className="about-col-2">
             <h1 className="about-subtitle">About Me</h1>
-            <p className='about-para'>Hello! I'm Saurav Kumar, a final-year student, web developer, and programming enthusiast. I'm dedicated, passionate about my goals, and thrive on challenges. With a strong track record of delivering high-quality work on time, I'm the one you're looking for. Feel free to reach out—I look forward to connecting with you!</p>
+            <p className='about-para'>👋 Hello! I'm Saurav, a passionate final-year student pursuing B.Tech in Computer Science and Engineering at Jaipur Engineering College and Research Centre. I have a strong interest in web development and a deep desire to become a software engineer. I am dedicated to expanding my knowledge and skills in the field of technology and coding.</p>
 
             <div className="tab-titles">
               <p className="tab-links active-link" onClick={(e) => opentab('skills', e)}>
@@ -63,12 +63,12 @@ const About = () => {
                 <li>
                   <span>May 2023 - Aug 2023</span>
                   <br />
-                  ReactJs Developer At Celebal Technologies
+                  Celebal Technologies - ReactJs Developer
                 </li>
                 <li>
                   <span>Jul 2022 - Aug 2022</span>
                   <br />
-                  Full Stack Developer At Wisflux Tech Lab
+                  Wisflux Private Limited - Full Stack Developer 
                 </li>
               </ul>
             </div>

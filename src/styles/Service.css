@@ -3,7 +3,7 @@
 }
 
 .service-section {
-  margin: 10px 150px;
+  margin: 10px 165px;
 }
 
 .service-title {
@@ -49,5 +49,5 @@
 
 .services-list div:hover {
   background-color: #007BFF;
-  transform: translateX(-10px); 
+  /* transform: translateX(-10px);  */
 }
