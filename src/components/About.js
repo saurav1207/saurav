@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/About.css'; 
-import saurya from '../assets/saurya.jpg';
+import saurya from '../assets/saurya.png';
 
 const About = () => {
   function opentab(tabname, event) {
