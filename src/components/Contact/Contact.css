@@ -1,0 +1,121 @@
+.contact-container {
+  display: flex;
+}
+
+.contact-heading h2 {
+  color: var(--text-black-100);
+  font-weight: 500;
+}
+
+.lefthalf {
+  width: 60%;
+  padding: 40px;
+  background: #fff;
+}
+
+.lefthalf h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+
+.lefthalf .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.lefthalf .inputBox input,
+.lefthalf .inputBox textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.lefthalf .inputBox span {
+  position: absolute;
+  left: 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+
+.lefthalf .inputBox input:focus~span,
+.lefthalf .inputBox input:valid~span,
+.lefthalf .inputBox textarea:focus~span,
+.lefthalf .inputBox textarea:valid~span {
+  color:var(--skin-color);
+  font-size: 12px;
+  transform: translateY(-10px);
+}
+
+.lefthalf .inputBox input[type="submit"] {
+  width: 100px;
+  background:var(--skin-color);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.righthalf {
+  width: 40%;
+  padding: 20px;
+  background:var(--skin-color);
+}
+
+.righthalf .contact-heading {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.righthalf .centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  margin-top: 120px;
+}
+
+.righthalf .message-icon {
+  font-size: 40px;
+  color: var(--text-black-100);
+}
+
+.righthalf .message-text {
+  color: white;
+  font-size: 18px;
+}
+
+.lowerend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.lowerend a{
+  text-decoration: none;
+  color: inherit; 
+}
+
+.lowerend i {
+  font-size: 40px;
+  color: var(--text-black-100);
+  margin: 10px 10px;
+}
+
+.lowerend i:hover {
+  color: #fff; 
+  transition: color 0.3s;
+}

@@ -1,23 +1,40 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Service from './components/Service';
-import Project from './components/Project';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout/Layout';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Service from './components/Service/Service';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About/>
-      <Service/>
-      <Project/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route
+            path="/"
+            element={<Layout contentComponent={<Home />} />}
+          />
+          <Route
+            path="/about"
+            element={<Layout contentComponent={<About />} />}
+          />
+          <Route
+            path="/services"
+            element={<Layout contentComponent={<Service />} />}
+          />
+          <Route
+            path="/portfolio"
+            element={<Layout contentComponent={<Portfolio />} />}
+          />
+          <Route
+            path="/contact"
+            element={<Layout contentComponent={<Contact />} />}
+          />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
