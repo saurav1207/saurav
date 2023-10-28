@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import CV from './Saurav Kumar.pdf';
 
 const Contact = () => {
-  const [submissionStatus, setSubmissionStatus] = useState('');
   const [formData, setFormData] = useState({
-    Name: '',
-    Email: '',
-    Message: '',
+    name: '', 
+    email: '',
+    number: '', 
+    message: '',
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -29,7 +28,7 @@ const Contact = () => {
 
     try {
       const response = await fetch(
-        'https://script.google.com/macros/s/AKfycbym6e8lrTxrdsj_A-62bUMtGABeDJY9nmr8abl0xk6hTp6kQ1qfUdRI0eKV9l0LeL4/exec',
+        'https://script.google.com/macros/s/AKfycbx9qC9h-gAw1OwqTcuxwwHbjQIjU1i3qQ4QQq-IXXsvdEa9vKf-kl9EAJSK-AgGLsy7/exec',
         {
           method: 'POST',
           body: formData,
@@ -37,23 +36,18 @@ const Contact = () => {
       );
 
       if (response.ok) {
-        setSubmissionStatus('Form submitted successfully.');
         formEle.reset();
         setFormData({
-          Name: '',
-          Email: '',
-          Message: '',
+          name: '',
+          email: '',
+          number: '',
+          message: '',
         });
-        setTimeout(() => {
-          setSubmissionStatus('');
-          setIsSubmitting(false);
-        }, 3000);
+        setIsSubmitting(false);
       } else {
-        setSubmissionStatus('Form submission failed. Please try again.');
         setIsSubmitting(false);
       }
     } catch (error) {
-      setSubmissionStatus('An error occurred while submitting the form.');
       setIsSubmitting(false);
     }
   };
@@ -68,26 +62,49 @@ const Contact = () => {
         </div>
         <div className="contact-container">
           <div className="lefthalf padd-15">
-            <form >
+            <form onSubmit={handleSubmit}> 
               <div className="row">
                 <div className="contact-heading padd-15">
-                  <h2>Send me message</h2>
+                  <h2>Send me a message</h2>
                 </div>
               </div>
               <div className="inputBox">
-                <input type="text" name="name" required="required" />
+                <input
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleInputChange}
+                  required="required"
+                />
                 <span>Name</span>
               </div>
               <div className="inputBox">
-                <input type="email" name="email" required="required" />
+                <input
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleInputChange}
+                  required="required"
+                />
                 <span>Email Address</span>
               </div>
               <div className="inputBox">
-                <input type="number" name="number" required="required" />
+                <input
+                  type="tel" 
+                  name="number"
+                  value={formData.number}
+                  onChange={handleInputChange}
+                  required="required"
+                />
                 <span>Phone Number</span>
               </div>
               <div className="inputBox">
-                <textarea name="message" required="required"></textarea>
+                <textarea
+                  name="message"
+                  value={formData.message}
+                  onChange={handleInputChange}
+                  required="required"
+                ></textarea>
                 <span>Message</span>
               </div>
               <div className="inputBox">
@@ -101,24 +118,40 @@ const Contact = () => {
             </div>
             <div className="centered-content">
               <div className="message-icon">
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i> 
               </div>
               <div className="message-text">
                 <p>sauravkumar77705@gmail.com</p>
               </div>
             </div>
             <ul className="lowerend">
-              <a href="https://www.linkedin.com/in/saurav1207/" target="_blank" rel="noopener noreferrer">
-                <i className="fa-brands fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/saurav1207/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-linkedin"></i> 
               </a>
-              <a href="https://github.com/saurav1207" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/saurav1207"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-square-github"></i>
               </a>
-              <a href="https://twitter.com/i__saurav__" target="_blank" rel="noopener noreferrer">
-                <i className="fa-brands fa-square-x-twitter"></i>
+              <a
+                href="https://twitter.com/i__saurav__"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-square-x-twitter"></i> 
               </a>
-              <a href="https://www.youtube.com/channel/UCIHl2VlEkrJGf4s2G2PrMGQ" target="_blank" rel="noopener noreferrer">
-                <i className="fa-brands fa-square-youtube"></i>
+              <a
+                href="https://www.youtube.com/channel/UCIHl2VlEkrJGf4s2G2PrMGQ"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-brands fa-square-youtube"></i> 
               </a>
             </ul>
           </div>

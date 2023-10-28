@@ -17,7 +17,7 @@ const Home = () => {
                         <Link to="/contact"><button className="btn hire me">Hire me</button></Link>
                     </div>
                     <div className="home-img">
-                        <img src={Profile} alt="Hero section image" />
+                        <img src={Profile} alt="Hero-section" />
                     </div>
                 </div>
             </div>

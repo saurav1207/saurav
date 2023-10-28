@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
 import './Layout.css';
-import Home from '../Home/Home';
 
 
 function Layout({ contentComponent }){
@@ -9,7 +8,7 @@ function Layout({ contentComponent }){
     <div className="main-container">
         <div className="aside">
             <div className="logo">
-                <a href="#">sa<span>ur</span>av</a>
+                <a href="/">sa<span>ur</span>av</a>
             </div>
             <div className="nav-toggler">
                 <span></span>
