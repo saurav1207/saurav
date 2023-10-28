@@ -18,10 +18,10 @@ const About = () => {
   }
 
   return (
-    <section className="about section padd-15">
+    <section className="about section">
       <div className="container">
         <div className="row">
-          <div className="section-title">
+          <div className="section-title padd-15">
             <h2>About Me</h2>
           </div>
         </div>
@@ -29,7 +29,7 @@ const About = () => {
           <div className="about-content padd-15">
             <div className="row">
               <div className="about-text padd-15 ">
-                <h3>Welcome to my world! I'm Saurav, the <span>Web Developer</span>.</h3>
+                <h3>Welcome to my world! I'm Saurav, A <span>Web Developer</span>.</h3>
                 <p> A passionate final-year student pursuing B.Tech in Computer Science and Engineering at Jaipur Engineering College and Research Centre. I have a strong interest in <span>web development </span>and a deep desire to become a software engineer. I am dedicated to expanding my knowledge and skills in the field of technology and coding.</p>
               </div>
             </div>

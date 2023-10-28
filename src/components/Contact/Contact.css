@@ -51,14 +51,14 @@
 .lefthalf .inputBox input:valid~span,
 .lefthalf .inputBox textarea:focus~span,
 .lefthalf .inputBox textarea:valid~span {
-  color:var(--skin-color);
+  color: var(--skin-color);
   font-size: 12px;
   transform: translateY(-10px);
 }
 
 .lefthalf .inputBox input[type="submit"] {
   width: 100px;
-  background:var(--skin-color);
+  background: var(--skin-color);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -70,7 +70,7 @@
 .righthalf {
   width: 40%;
   padding: 20px;
-  background:var(--skin-color);
+  background: var(--skin-color);
 }
 
 .righthalf .contact-heading {
@@ -82,8 +82,8 @@
 .righthalf .centered-content {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-top: 120px;
 }
@@ -91,6 +91,11 @@
 .righthalf .message-icon {
   font-size: 40px;
   color: var(--text-black-100);
+}
+
+.message-icon i:hover {
+  color: #fff;
+  transition: color 0.3s;
 }
 
 .righthalf .message-text {
@@ -104,9 +109,10 @@
   align-items: center;
   flex-direction: row;
 }
-.lowerend a{
+
+.lowerend a {
   text-decoration: none;
-  color: inherit; 
+  color: inherit;
 }
 
 .lowerend i {
@@ -116,6 +122,6 @@
 }
 
 .lowerend i:hover {
-  color: #fff; 
+  color: #fff;
   transition: color 0.3s;
 }
