@@ -38,73 +38,83 @@ const About = () => {
                 <img src={saurya} alt="saurav-about" />
               </div>
               <div className="about-col-2 ">
-              <div className="tab-titles">
-                <p className="tab-links active-link" onClick={(e) => opentab('skills', e)}>
-                  Skills
-                </p>
-                <p className="tab-links" onClick={(e) => opentab('experience', e)}>
-                  Experience
-                </p>
-                <p className="tab-links" onClick={(e) => opentab('education', e)}>
-                  Education
-                </p>
-              </div>
-              <div className="tab-contents active-tab" id="skills">
-                <ul>
-                  <li>
-                    <span>Programming Lang.</span>
-                    <br />
-                    C, C++, DSA
-                  </li>
-                  <li>
-                    <span>Frontend</span>
-                    <br />
-                    HTML5, CSS3, JS, ReactJS
-                  </li>
-                  <li>
-                    <span>Backend</span>
-                    <br />
-                    NodeJs, Express, MongoDB, SQL
-                  </li>
-                </ul>
-              </div>
-              <div className="tab-contents" id="experience">
-                <ul>
-                  <li>
-                    <span>May 2023 - Aug 2023</span>
-                    <br />
-                    Celebal Technologies - ReactJs Developer
-                  </li>
-                  <li>
-                    <span>Jul 2022 - Aug 2022</span>
-                    <br />
-                    Wisflux Private Limited - Full Stack Developer
-                  </li>
-                </ul>
-              </div>
-              <div className="tab-contents" id="education">
-                <ul>
-                  <li>
-                    <span>2020 - Current</span>
-                    <br />
-                    Jaipur Engineering College & Research Centre <br />
-                    91.50%
-                  </li>
-                  <li>
-                    <span>2019</span>
-                    <br />
-                    S.P.S College, Desari, Vaishali <br />
-                    79.40%
+                <div className="tab-titles">
+                  <p className="tab-links active-link" onClick={(e) => opentab('skills', e)}>
+                    Skills
+                  </p>
+                  <p className="tab-links" onClick={(e) => opentab('experience', e)}>
+                    Experience
+                  </p>
+                  <p className="tab-links" onClick={(e) => opentab('education', e)}>
+                    Education
+                  </p>
+                </div>
+                <div className="tab-contents active-tab" id="skills">
+                  <ul>
+                    <li>
+                      <span>Programming Languages</span>
+                      <br />
+                      C, C++, Data Structures and Algorithms
+                    </li>
+                    <li>
+                      <span>Frontend</span>
+                      <br />
+                      HTML5, CSS3, JavaScript, ReactJS
+                    </li>
+                    <li>
+                      <span>Backend</span>
+                      <br />
+                      Node.js, Express, MongoDB, SQL
+                    </li>
+                    <li>
+                      <span>Version Control</span>
+                      <br />
+                      Git, GitHub
+                    </li>
+                  </ul>
+                </div>
+                <div className="tab-contents" id="experience">
+                  <ul>
+                    <li>
+                      <span>May 2023 - Aug 2023</span>
+                      <br />
+                      Celebal Technologies - ReactJS Developer
+                    </li>
+                    <li>
+                      <span>Jul 2022 - Aug 2022</span>
+                      <br />
+                      Wisflux Private Limited - Full Stack Developer
+                    </li>
+                  </ul>
+                </div>
+                <div className="tab-contents" id="education">
+                  <ul>
+                    <li>
+                      <span>2020 - Current</span>
+                      <br />
+                      B.Tech in Computer Science and Engineering
+                      <br />
+                      Jaipur Engineering College & Research Centre
+                      <br />
+                      91.50%
+                    </li>
+                    <li>
+                      <span>2019</span>
+                      <br />
+                      S.P.S College, Desari, Vaishali
+                      <br />
+                      79.40%
+                    </li>
+                    <li>
+                      <span>2017</span>
+                      <br />
+                      High School Maudah
+                      <br />
+                      62.40%
+                    </li>
+                  </ul>
+                </div>
 
-                  </li>
-                  <li>
-                    <span>2017</span>
-                    <br />
-                    High School Maudah <br />
-                    62.40%
-                  </li>
-                </ul>
-              </div>
               </div>
             </div>
           </div>

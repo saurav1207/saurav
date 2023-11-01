@@ -7,7 +7,7 @@ const portfolioItems = [
     category: 'healthcare',
     alt: 'Healthcare Project',
     title: 'Doc-Xpert',
-    description: 'A web app for managing healthcare records.',
+    description: 'A healthcare record management web app.',
     link: 'https://doctor-patient-appointment-app.onrender.com/landing-page',
   },
   {
@@ -15,7 +15,7 @@ const portfolioItems = [
     category: 'education',
     alt: 'Education Project',
     title: 'Eshiksha',
-    description: 'An online platform for e-learning and courses.',
+    description: 'An e-learning and course platform.',
     link: 'https://saurav-eshiksha.netlify.app/',
   },
   {
@@ -23,7 +23,7 @@ const portfolioItems = [
     category: 'github',
     alt: 'GitHub Project',
     title: 'GitStare',
-    description: 'Integration with GitHub API for searching user activity on github.',
+    description: 'GitHub user activity search using GitHub API.',
     link: 'https://saurav1207-github-user-search.netlify.app/',
   },
   {
@@ -31,7 +31,7 @@ const portfolioItems = [
     category: 'weather',
     alt: 'Weather Project',
     title: 'Weather App',
-    description: 'A weather forecasting web app.',
+    description: 'A web app for weather forecasting.',
     link: 'https://saurav1207-weather-application.netlify.app/',
   },
   {
@@ -39,7 +39,7 @@ const portfolioItems = [
     category: 'technical',
     alt: 'Technical Project',
     title: 'Technical Doc. Page',
-    description: 'A blog platform for technical articles.',
+    description: 'A platform for technical articles and documentation.',
     link: 'saurav1207-technical-documentation.netlify.app',
   },
   {
@@ -51,6 +51,7 @@ const portfolioItems = [
     link: 'https://saurav1207-urshop.netlify.app',
   },
 ];
+
 
 const Portfolio = () => {
   return (

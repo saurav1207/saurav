@@ -14,7 +14,7 @@ const Home = () => {
                         <p className="introPara">I am a passionate web developer with good problem-solving skills
                             and a zeal to learn and work toward my goal.
                         </p>
-                        <Link to="/contact"><button className="btn hire me">Hire me</button></Link>
+                        <Link to="/contact"><button className="btn">Hire me</button></Link>
                     </div>
                     <div className="home-img">
                         <img src={Profile} alt="Hero-section" />

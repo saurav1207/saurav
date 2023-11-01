@@ -108,13 +108,15 @@ const Contact = () => {
                 <span>Message</span>
               </div>
               <div className="inputBox">
-                <input type="submit" value="Send" />
+                {/* <input type="submit" value="Send"/> */}
+                <button className="btn">Send</button>
               </div>
             </form>
           </div>
           <div className="righthalf">
             <div className="contact-heading padd-15">
               <h2>Contact Information</h2>
+              <hr />
             </div>
             <div className="centered-content">
               <div className="message-icon">

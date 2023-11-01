@@ -6,29 +6,31 @@ const servicesData = [
   {
     icon: 'fa fa-mobile-alt',
     title: 'Web Design',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cupiditate porro eveniet!',
+    description: 'I create visually stunning websites with a focus on user experience and aesthetics. Your online presence will leave a lasting impression on your audience.',
   },
   {
     icon: 'fa fa-laptop-code',
     title: 'Web Development',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cupiditate porro eveniet!',
+    description: 'I develop websites and applications that are both functional and responsive. Your ideas will come to life with my coding expertise.',
   },
   {
     icon: 'fa fa-palette',
     title: 'Graphic Design',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cupiditate porro eveniet!',
+    description: 'My graphic designs are captivating and memorable, making your brand stand out. Logos, marketing materials, and more are my specialties.',
   },
   {
     icon: 'fa fa-code',
     title: 'Programming',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cupiditate porro eveniet!',
+    description: 'I am proficient in various programming languages and frameworks, capable of creating custom solutions for your unique needs.',
   },
   {
     icon: 'fa fa-search',
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cupiditate porro eveniet!',
+    description: 'I optimize websites for search engines to increase online visibility and attract organic traffic. Boost your websites rankings with my expertise.',
   },
 ];
+
+
 
 const Service = () => {
   return (
