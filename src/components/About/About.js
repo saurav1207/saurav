@@ -64,7 +64,7 @@ const About = () => {
                     <li>
                       <span>Backend</span>
                       <br />
-                      Node.js, Express, MongoDB, SQL
+                      NodeJS, Express, MongoDB, SQL
                     </li>
                     <li>
                       <span>Version Control</span>
