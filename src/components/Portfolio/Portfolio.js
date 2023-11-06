@@ -4,53 +4,76 @@ import './Portfolio.css';
 const portfolioItems = [
   {
     id: 1,
-    category: 'healthcare',
-    alt: 'Healthcare Project',
+    category: 'Medical',
     title: 'Doc-Xpert',
-    description: 'A healthcare record management web app.',
-    link: 'https://doctor-patient-appointment-app.onrender.com/landing-page',
+    description: 'A healthcare management web app with various essential feature.',
+    link: 'https://doctor-patient-appointment-app.onrender.com/landing-page'
   },
   {
     id: 2,
-    category: 'education',
-    alt: 'Education Project',
+    category: 'learning',
     title: 'Eshiksha',
     description: 'An e-learning and course platform.',
-    link: 'https://saurav-eshiksha.netlify.app/',
+    link: 'https://saurav-eshiksha.netlify.app/'
   },
   {
     id: 3,
-    category: 'github',
-    alt: 'GitHub Project',
+    category: 'Git',
     title: 'GitStare',
-    description: 'GitHub user activity search using GitHub API.',
-    link: 'https://saurav1207-github-user-search.netlify.app/',
+    description: 'Explore GitHub user activities.',
+    link: 'https://saurav1207-github-user-search.netlify.app/'
   },
   {
     id: 4,
-    category: 'weather',
-    alt: 'Weather Project',
+    category: 'Weather',
     title: 'Weather App',
-    description: 'A web app for weather forecasting.',
-    link: 'https://saurav1207-weather-application.netlify.app/',
+    description: 'Get weather forecasts with a web app.',
+    link: 'https://saurav1207-weather-application.netlify.app/'
   },
   {
     id: 5,
-    category: 'technical',
-    alt: 'Technical Project',
+    category: 'document',
     title: 'Technical Doc. Page',
-    description: 'A platform for technical articles and documentation.',
-    link: 'saurav1207-technical-documentation.netlify.app',
+    description: 'Access technical articles and documentation.',
+    link: 'saurav1207-technical-documentation.netlify.app'
   },
   {
     id: 6,
-    category: 'cart',
-    alt: 'Cart Project',
+    category: 'Cart',
     title: 'URShop',
-    description: 'An e-commerce shopping cart application.',
-    link: 'https://saurav1207-urshop.netlify.app',
+    description: 'Shop online with an e-commerce cart application.',
+    link: 'https://saurav1207-urshop.netlify.app'
   },
+  {
+    id: 7,
+    category: 'digital',
+    title: 'TextUtils',
+    description: 'Perform various text conversions with a service.',
+    link: 'https://saurav1207-textutils.netlify.app'
+  },
+  {
+    id: 8,
+    category: 'Form',
+    title: 'Form Validation',
+    description: 'Ensure data authenticity with form validation.',
+    link: 'https://saurav1207-form-validation.netlify.app'
+  },
+  {
+    id: 9,
+    category: 'fun game',
+    title: 'Tic Tac Toe',
+    description: 'Enjoy a classic game of tic-tac-toe.',
+    link: 'https://saurav1207-tic-tac-toe.netlify.app'
+  },
+  {
+    id: 10,
+    category: 'Order',
+    title: 'Food Ordering Website',
+    description: 'Order your favorite food online.',
+    link: 'https://saurav1207-food-order-website.netlify.app'
+  }
 ];
+
 
 
 const Portfolio = () => {
