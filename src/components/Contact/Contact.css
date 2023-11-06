@@ -2,11 +2,6 @@
   display: flex;
 }
 
-.contact-heading h2 {
-  color: var(--text-black-100);
-  font-weight: 500;
-}
-
 .lefthalf {
   width: 60%;
   padding: 40px;
@@ -67,6 +62,16 @@
   border-radius: 5px;
 }
 
+#sub-res{
+  color: #61b752;
+  margin-top: -40px;
+  display: block;
+}
+
+.contact-heading h2 {
+  font-weight: 500;
+}
+
 .righthalf {
   width: 40%;
   padding: 20px;
@@ -76,38 +81,22 @@
 .righthalf .contact-heading {
   font-size: 20px;
   margin-top: 20px;
-  color: #fff;
 }
 
 .righthalf .centered-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: left;
+  text-align: left;
   margin-top: 120px;
-}
-
-.righthalf .message-icon {
-  font-size: 40px;
-  color: var(--text-black-100);
-}
-
-.message-icon i:hover {
-  color: #fff;
-  transition: color 0.3s;
-}
-
-.righthalf .message-text {
-  color: white;
-  font-size: 18px;
 }
 
 .lowerend {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: row;
+  margin-top: 350px;
 }
 
 .lowerend a {
@@ -118,7 +107,7 @@
 .lowerend i {
   font-size: 40px;
   color: var(--text-black-100);
-  margin: 10px 10px;
+  margin-left:20px;
 }
 
 .lowerend i:hover {
